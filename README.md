@@ -1,8 +1,31 @@
 # Adaptive Selection based Referring Image Segmentation
 This is an official PyTorch implementation of ASDA (accepted by ACMMM 2024).
 ## News
-- [July 16, 2024] The paper is accepted by ACMMM 2024.
+- [July 16, 2024] The paper is accepted by ACMMM 2024🎉.
 - [Oct 22, 2024] Pytorch implementation of ASDA is released.
+
+## Main Results
+
+Main results on RefCOCO
+
+Model | Backbone | val | test A | test B |
+--- | ---- |:-------------:| :-----:|:-----:|
+CRIS| ResNet101 | 70.47 | 73.18 | 66.10 |
+ASDA| ViT-B | 75.06  | 77.14 | 71.36 |
+
+Main results on RefCOCO+
+
+Model | Backbone | val | test A | test B |
+--- | ---- |:-------------:| :-----:|:-----:|
+CRIS| ResNet101 | 62.27 | 68.08 | 53.68 |
+ASDA| ViT-B | 66.84  | 71.13 | 57.83 |
+
+Main results on G-Ref
+
+Model | Backbone | val(U) | test(U) | val(G) |
+--- | ---- |:-------------:| :-----:| :-----:|
+CRIS| ResNet101 | 59.87 | 60.36 | - |
+ASDA| ViT-B | 65.73  | 66.45 |  63.55
 
 ## Quick Start
 ### Environment preparation

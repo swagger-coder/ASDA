@@ -83,7 +83,6 @@ def get_args():
     global args, anchors_full, writer, logger
     args = parser.parse_args()
     args.gsize = 32 
-    # 获取格式化日期
     args.date = datetime.datetime.now().strftime('%Y%m%d')
     if args.savename=='default':
         args.savename = 'model_v1_%s_batch%d_%s'%(args.dataset, args.batch_size, args.date)

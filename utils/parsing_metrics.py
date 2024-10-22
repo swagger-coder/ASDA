@@ -93,7 +93,6 @@ def cal_seg_iou(gt,pred,trsh=0.5):
 def cal_seg_iou2(gt,pred,trsh=0.5):
     #(gt.shape) [1 428 640]
     #(pred.shape)  [428 640]
-    # trsh 这个会影响精度吗？
     t=np.array(pred>trsh)
     p=np.array(gt>0.)
     intersection = np.logical_and(t, p)
