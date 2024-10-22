@@ -1,8 +1,8 @@
 # Adaptive Selection based Referring Image Segmentation
 This is an official PyTorch implementation of ASDA (accepted by ACMMM 2024).
 ## News
-- [July 16, 2024] The paper was accepted by ACMMM 2024.
-- [Oct 22, 2024] Pytorch implementation of ASDA are released.
+- [July 16, 2024] The paper is accepted by ACMMM 2024.
+- [Oct 22, 2024] Pytorch implementation of ASDA is released.
 
 ## Quick Start
 ### Environment preparation

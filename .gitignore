@@ -1,3 +1,4 @@
+.gitignore
 ln_data
 ln_data/*
 data
