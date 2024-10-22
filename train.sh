@@ -1,0 +1,2 @@
+# CUDA_VISIBLE_DEVICES=2 python  -m debugpy --listen localhost:6666 --wait-for-client train_model_vit_0319.py --dataset refcoco --ngpu 1 --batch_size 14 --time 17 --savename test
+CUDA_VISIBLE_DEVICES=${1} python train.py --dataset refcoco --ngpu 2 --batch_size 14 --time 17 --savename savename

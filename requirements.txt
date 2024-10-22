@@ -1,0 +1,11 @@
+scikit-image
+pycocotools
+numpy
+scipy
+matplotlib
+opencv-python # 4.3.0.38
+tqdm
+pytorch_pretrained_bert
+tensorboardX
+termcolor
+git+https://github.com/openai/CLIP.git
